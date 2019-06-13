@@ -75,21 +75,22 @@ p {
 		margin-top: 20px;
   	display: flex;
     flex-wrap: wrap;
+		justify-content: space-between;
 		align-items: baseline;
 }
 
 .container header nav a {
-		margin:0px 45px 0px 45px;
+		padding: 30px;
 		text-decoration: none;
     color: black;
-		font-size: 12px;
+		font-size: 14px;
 		font-weight: bold;
 }
 
 .subheader-image {
 	margin: 40px 0px 20px 0;
-
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -108,21 +109,21 @@ p {
 .top-content .about {
 	display: flex;
 	flex-wrap: wrap;
-	width:800px;
-	height: auto;
-	  margin: 0 2% 20px;
-		margin-top: 10px;
+	margin: 0 3% 20px;
+	margin-top: 10px;
 }
-.middle-content{
 
+ .middle-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.middle-content h2 {
+
+ .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
 .middle-content .text-container {
 	margin:10px 0 10px 0;
 }
@@ -130,137 +131,80 @@ p {
 .middle-content .text-container h2{
 	padding: 0px;
 }
+
 .middle-content p{
 	margin:10px 0 10px 0;
 }
 
+.middle-content {
+	margin-bottom: 20px;
+	/* border-bottom: 1px dashed green; */
+}
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content h2 {
+	padding: 0 2%;
+	margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-bottom: 1px dashed black;
 }
-.middle-content .boxes .box-1{
-		width: 12.5%;
-		height: 100px;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		background-color: teal;
-		align-items: center;
-		justify-content: center;
+
+ .middle-content .boxes .box {
+	width: 100px;
+	height: 100px;
+	background: black;
+	color: white;
+	margin: 20px 2.5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.middle-content .boxes .box.box-1{
+	background-color: teal;
+}
+
+.middle-content .boxes .box.box-2{
+	background-color: gold;
 	}
 
-.middle-content .boxes .box-2{
-		width: 12.5%;
-		height: 100px;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		background-color: gold;
-		align-items: center;
-		justify-content: center;
-		}
 
-.middle-content .boxes .box-3{
-		width: 12.5%;
-		height: 100px;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		background-color: cadetblue;
-		align-items: center;
-		justify-content: center;
-		}
+.middle-content .boxes .box.box-3{
+	background-color: cadetblue;
+}
+.middle-content .boxes .box.box-4{
+	background-color: coral;
+}
 
-.middle-content .boxes .box-4{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: coral;
-			align-items: center;
-			justify-content: center;
-			}
+.middle-content .boxes .box.box-5{
+	background-color: crimson;
+}
 
-.middle-content .boxes .box-5{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: crimson;
-			align-items: center;
-			justify-content: center;
-			}
+.middle-content .boxes .box.box-6{
+	background-color: forestgreen;
+}
+.middle-content .boxes .box.box-7{
+	background-color: darkorchid;
+}
+.middle-content .boxes .box.box-8{
+	background-color: hotpink;
+}
 
-.middle-content .boxes .box-6{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: forestgreen;
-			align-items: center;
-			justify-content: center;
-			}
-
-.middle-content .boxes .box-7{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: darkorchid;
-			align-items: center;
-			justify-content: center;
-			}
-
-.middle-content .boxes .box-8{
-		width: 12.5%;
-		height: 100px;
-		margin: 20px 2.5%;
-		color: white;
-		display: flex;
-		background-color: hotpink;
-		align-items: center;
-		justify-content: center;
-		}
-
-.middle-content .boxes .box-9{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: indigo;
-			align-items: center;
-			justify-content: center;
-			}
-
-	.middle-content .boxes .box-10{
-			width: 12.5%;
-			height: 100px;
-			margin: 20px 2.5%;
-			color: white;
-			display: flex;
-			background-color: dodgerblue;
-			align-items: center;
-			justify-content: center;
-			}
+.middle-content .boxes .box.box-9{
+	background-color: indigo;
+	}
+.middle-content .boxes .box.box-10{
+	background-color: dodgerblue;
+}
 
  .top-left-content, .top-right-content, .bottom-right-content, .bottom-left-content  {
-width: 370px;
-	display:flex;
-	flex-wrap:wrap;
-box-sizing: border-box;
+		width: 370px;
+		display:flex;
+		flex-wrap:wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 
